@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(red,green);
+}
+.para1{
+    text-align: center;
+    /* color: blue; */
+}
+.shoes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  
+}
+.shoe4{
+    height: 200px;
+    width: 200px;
+}
+.shoe1{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-color: wheat;
+}
+/* .shoe2{
+    height: 200px;
+    width: 200px;
+}
+.shoe3{
+    height: 200px;
+    width: 200px;
+}
+.shoe5{
+    height: 200px;
+    width: 200px;
+}
+.shoe6{
+    height: 200px;
+    width: 200px;
+}
+.shoe7{
+    height: 200px;
+    width: 200px;
+}
+.shoe8{
+    height: 150px;
+    width: 200px;
+} */
+
+.h1{
+    text-align: center;
+    /* color: violet; */
+}
+.para2{
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    .shoes{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    
+}
+@media only screen and (min-width:600px){
+    .shoes{
+        display: grid;
+        grid-template-columns: auto auto auto;
+}
+}

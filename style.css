@@ -1,34 +1,58 @@
-body{
-    background-color: greenyellow;
+body {
+    /* background-color: greenyellow; */
 }
-.gridcontainer{
+
+.gridcontainer {
     display: grid;
     grid-gap: 50px 100px;
     grid-template-columns: auto auto auto;
     margin-top: 100px;
-        
+
 
 }
-.flexcontainer{
+
+.flexcontainer {
     display: flex;
     /* width: 45px; */
     /* height: 100px; */
     margin-top: 100px;
 }
-.raw{
+
+.raw {
     display: flex;
     /* justify-content:center; */
-justify-content: flex-start;
+    justify-content: flex-start;
     /* align-items:cen ; */
     margin-top: 100px;
 }
-.rab{
+
+.rab {
     display: flex;
     margin-top: 100px;
     justify-content: flex-end;
 }
-.rew{
+
+.rew {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+
+
+
+@media only screen and (min-width:600px) {
+    .psutest {
+        color: chartreuse;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .testmedia {
+        color: blue;
+        font-size: 50px;
+        text-transform: capitalize;
+    }
 }
