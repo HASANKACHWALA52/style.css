@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(red,green);
+    background-image: linear-gradient( #6b5b95,#d64161,green);
 }
 .para1{
     text-align: center;
@@ -8,46 +8,66 @@ body{
 .shoes{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    /* border: 2px solid; */
+    /* border-radius: 50px; */
   
 }
-.shoe4{
+ /* .shoe4{ 
     height: 200px;
-    width: 200px;
-}
+    width: 200px; 
+}  */
 .shoe1{
     height: 200px;
     width: 200px;
     margin: 50px;
-    background-color: wheat;
+    /* background-color: wheat; */
+    /* border: 2px solid;  */
+     /* border-radius: 70px; */
 }
 /* .shoe2{
     height: 200px;
     width: 200px;
+     border: 2px solid;
+    border-radius: 70px;
 }
 .shoe3{
     height: 200px;
     width: 200px;
+     border: 2px solid;
+    border-radius: 70px;
 }
 .shoe5{
     height: 200px;
     width: 200px;
+     border: 2px solid;
+    border-radius: 70px;
 }
 .shoe6{
     height: 200px;
     width: 200px;
+     border: 2px solid;
+    border-radius: 70px;
 }
 .shoe7{
     height: 200px;
     width: 200px;
-}
-.shoe8{
+     border: 2px solid;
+    border-radius: 70px;
+} */
+/* .shoe8{
     height: 150px;
     width: 200px;
+     border: 2px solid;
+    border-radius: 70px;
 } */
 
-.h1{
+.raw{
     text-align: center;
     /* color: violet; */
+    margin: 5px;
+    /* padding: 100px 100px 100px 100px; */
+    /* height: 50px; */
+    /* width: 50px; */
 }
 .para2{
     text-align: center;
