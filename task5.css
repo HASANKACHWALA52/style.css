@@ -5,9 +5,14 @@ body{
     text-align: center;
     /* color: blue; */
 }
+h1{
+    text-align: center;
+}
 .shoes{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-gap: 30px 70px;
+    /* padding: 100px 500px 100px 500px; */
     /* border: 2px solid; */
     /* border-radius: 50px; */
   
@@ -17,12 +22,25 @@ body{
     width: 200px; 
 }  */
 .shoe1{
-    height: 200px;
-    width: 200px;
-    margin: 50px;
-    /* background-color: wheat; */
-    /* border: 2px solid;  */
-     /* border-radius: 70px; */
+     /* height: 200px; */
+    /* width: 50%; */
+      /* margin: 50px;  */
+     border: 2px solid;
+    /* height: 300px;
+    /* width: 300px; */
+    border-radius: 30px; 
+    background-color: white;
+    
+}
+.shoe1 img{
+width: 200px;
+height: 200px;
+padding-left: 130px;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 130px;
+/* margin: 20px; */
+/* margin-top: 50px; */
 }
 /* .shoe2{
     height: 200px;
@@ -72,14 +90,23 @@ body{
 .para2{
     text-align: center;
 }
-@media only screen and (max-width:600px){
+.jordan{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.image{
+    width: 200px;
+    height: 50px;
+}
+@media only screen and (max-width:700px){
     .shoes{
         display: grid;
         grid-template-columns: auto auto ;
     }
     
 }
-@media only screen and (min-width:600px){
+@media only screen and (min-width:700px){
     .shoes{
         display: grid;
         grid-template-columns: auto auto auto;
