@@ -7,13 +7,14 @@ body{
     grid-gap: 20px;
 }
 .aston{
-    background-color: antiquewhite;
+    background-color: white;
     text-align: center;
     border: 2px solid beige;
     border-radius: 15px;
     width: 420px;
     height: 400px;
     padding: 20px 0px;
+    margin-left: 110PX;
 }
 .image{
     width: 322px;
@@ -27,7 +28,7 @@ body{
         grid-template-columns: auto auto;
     }
     .aston{
-        width: 220px;
+        width: 150px;
         height: 275px;
     }
     .image{
@@ -55,5 +56,29 @@ body{
     .image{
         width: 214px;
         height: 160px;
+    }
+}
+@media only screen and (min-width:1080px){
+    .product{
+        grid-template-columns: auto  auto auto auto;
+        display: grid;
+        
+    }
+    .aston{
+        background-color: white;
+        text-align: center;
+        border: 2px solid beige;
+        border-radius: 15px;
+        width: 420px;
+        height: 400px;
+        padding: 20px 0px;
+        margin-left: 110PX;
+    }
+    .image{
+        width: 322px;
+        height: 196px;
+    }
+    .first-para{
+        text-align: center;
     }
 }
