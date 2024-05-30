@@ -11,14 +11,12 @@ body{
     text-align: center;
     border: 2px solid beige;
     border-radius: 100px;
-    width: 420px;
+    width: 380px;
     height: 400px;
     padding: 20px 0px;
-<<<<<<< HEAD
-    margin-left: 100px;
-=======
-    margin-left: 110PX;
->>>>>>> 73d6018a422b9b1344f4daea42b91b8d9bb1da0f
+ margin-left: 100px;
+
+
 }
 .image{
     width: 322px;
@@ -40,7 +38,7 @@ body{
         height: 116px;
     }
     h2{
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 
